@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PersonasMaterialClase</string>
+    <string name="agregarPersona">Add</string>
+    <string name="apellido">Last Name</string>
+    <string name="cedula">DNI</string>
+    <string name="guardar">Save</string>
+    <string name="limpiar">Clear</string>
+    <string name="nombre">Name</string>
+    <string name="action_settings">Settings</string>
+    <string name="mensaje_error_vacio">Type de missing information</string>
+    <string name="mensaje_persona_guardada">Person saved Succesfully</string>
+</resources>

@@ -10,13 +10,32 @@ public class Persona {
     private String nombre;
     private String apellido;
     private int sexo;
+    private String id;
 
+    public Persona() {
+
+    }
     public Persona(int foto, String cedula, String nombre, String apellido, int sexo) {
         this.foto = foto;
         this.cedula = cedula;
         this.nombre = nombre;
         this.apellido = apellido;
         this.sexo = sexo;
+    }
+    public Persona(int foto, String cedula, String nombre, String apellido) {
+        this.foto = foto;
+        this.cedula = cedula;
+        this.nombre = nombre;
+        this.apellido = apellido;
+
+    }
+    public Persona(String id,int foto, String cedula, String nombre, String apellido) {
+        this.id=id;
+        this.foto = foto;
+        this.cedula = cedula;
+        this.nombre = nombre;
+        this.apellido = apellido;
+
     }
 
     public int getFoto() {
